@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profile Usaha Buku Tatag</title>
+<link rel ="stylesheet" href ="style.css"/>
+<nav class="navbar">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="produk.html">Produk</a></li>
+    <li><a href="Bedah Buku Artikel.html">Bedah Buku Artikel</a></li>
+    <li><a href="testimoni.html">Testimoni</a></li>
+    <li><a href="Proses Testimoni.html">Proses Testimoni</a></li>
+    <li><a href="Tampil Testimoni.html">Tampil Testimoni</a></li>
+    <li><a href="Kontak.html">Kontak</a></li>
+    <li><a href="Video Produk Event.html">Video Produk Event</a></li>
+  </ul>
+</nav>
+
+</head>
+<body>
+<section class="daftar-produk">
+  <div class="produk">
+  <img src="Image/thelittleprince.jpg">
+ <div class="container">
+  <div class="stat-card">
+    <span class="counter" data-target="100">0</span>
+    <span class="label">Pengunjung Puas</span>
+  </div>
+
+  <div class="stat-card">
+    <span class="counter" data-target="99">0</span>
+    <span class="label">Data Pengunjung</span>
+  </div>
+
+  <div class="stat-card">
+    <span class="counter" data-target="99">0</span>
+    <span class="label">Buku Favorit</span>
+  </div>
+
+  <div class="stat-card">
+    <span class="counter" data-target="95">0</span>
+    <span class="label">Pengunjung Terbaik</span>
+  </div>
+
+  <div class="stat-card">
+    <span class="counter" data-target="99">0</span>
+    <span class="label">Rating Positif</span>
+  </div>
+</div>
+<script>
+  const counters = document.querySelectorAll('.counter');
+  
+  counters.forEach(counter => {
+    const updateCount = () => {
+      const target = +counter.getAttribute('data-target');
+      const count = +counter.innerText;
+      
+      // Mengatur durasi animasi agar halus
+      const speed = 150; 
+      const increment = target / speed;
+
+      if (count < target) {
+        counter.innerText = Math.ceil(count + increment);
+        setTimeout(updateCount, 15);
+      } else {
+        counter.innerText = target;
+      }
+    };
+
+    updateCount();
+  });
+</script>
+
+    <h1>Selamat Datang di Usaha Buku Tatag</h1>
+    <h2>Anda bisa mencari aneka buku di toko kamu</h2>
+    <p>Website ini berisi informasi tentang produk buku, bedah
+buku, dan testimoni pelanggan</p>
+<p>Website buku sebaiknya memiliki desain yang bersih, rapi, dan menenangkan. Penggunaan tipografi yang mudah dibaca (serif atau sans-serif yang modern) sangat krusial karena audiens Anda adalah orang-orang yang gemar membaca.
+Warna: Gunakan palet warna yang hangat (seperti krem, kayu, atau biru tua) untuk memberikan kesan intelektual dan nyaman.
+Navigasi: Menu harus dikategorikan berdasarkan Genre, Penulis, Buku Terlaris (Bestseller), dan Rilisan Terbaru.</p>
+
+<h1>Mengenal Ukuran Buku by Tatag</h1>
+<p>Ukuran Buku adalah sebuah inisiatif yang berfokus pada kurasi literatur dan apresiasi terhadap objek buku. Di bawah arahan Ferdyano, platform ini tumbuh menjadi wadah bagi para pecinta buku yang mencari judul-judul berkualitas, mulai dari sastra, filsafat, hingga buku-buku seni yang mungkin sulit ditemukan di toko buku arus utama (mainstream).
+Karakteristik Utama:
+Kurasi yang Personal: Tatag seringkali mengkurasi koleksinya berdasarkan kualitas konten dan estetika buku itu sendiri. Setiap buku yang dipajang biasanya dipilih dengan pertimbangan mendalam.
+Estetika Visual: Akun atau platform Ukuran Buku dikenal dengan presentasi visualnya yang sangat rapi, minimalis, dan aesthetic. Foto-foto buku diambil dengan gaya yang menonjolkan tekstur kertas dan desain sampul.
+Pendekatan Komunitas: Lebih dari sekadar transaksi jual-beli, Ukuran Buku sering membagikan kutipan (quotes), ulasan singkat, dan rekomendasi yang memicu diskusi di antara pengikutnya (terutama di media sosial seperti Instagram).</p>
+<h1>Jenis Jenis Buku by Tatag</h1>
+<p>Buku yang isinya berasal dari imajinasi penulis, meskipun terkadang terinspirasi dari kejadian nyata.
+Novel: Cerita panjang dengan alur yang kompleks dan karakter yang berkembang (contoh: Laskar Pelangi).
+Novel Grafis & Komik: Cerita yang disampaikan melalui perpaduan teks dan ilustrasi gambar.
+Antologi Cerpen: Kumpulan cerita pendek dalam satu buku.
+Puisi/Sajak: Karya sastra yang mementingkan rima, ritme, dan keindahan bahasa.
+Fiksi Sejarah: Cerita rekaan yang berlatar belakang peristiwa sejarah nyata.
+Fantasi & Sci-Fi: Cerita tentang dunia sihir seperti Harry Potter, atau masa depan dengan teknologi canggih.</p>
+<h1>Tips Merawat Buku by Tatag</h1>
+<p>Bersihkan Debu Secara Rutin: Gunakan kemoceng bulu ayam yang lembut atau kain mikrofiber kering untuk membersihkan bagian atas buku. Lakukan setidaknya seminggu sekali.
+Hapus Noda Pensil: Jika ada coretan pensil, gunakan penghapus yang sangat lembut secara perlahan agar kertas tidak robek.
+Buka Buku Secara Berkala: Jangan biarkan buku tertutup selama bertahun-tahun. Sesekali buka dan balik halamannya agar kertas tidak lengket dan mendapatkan udara</p>
+<H1>Informasi mencari buku terbaik </H1>
+<p>Jika Anda menyukai satu buku, kemungkinan besar Anda akan menyukai karya lain dari penulis yang sama atau penerbit yang memiliki selera serupa.
+Penerbit Berkualitas: Di Indonesia, penerbit seperti Gramedia Pustaka Utama (GPU), Marjin Kiri, Mooi, atau Kepustakaan Populer Gramedia (KPG) sering kali memiliki standar kurasi yang tinggi.
+Lingkaran Penulis: Lihat siapa yang memberikan kutipan (blurb) di sampul belakang buku. Penulis hebat biasanya memberikan rekomendasi untuk buku-buku yang mereka anggap setara kualitasnya.</p>
+<h1>Lokasi Toko Kami</h1>
+<p>Tersembunyi di balik riuhnya Jalan Braga, Sudut Baca Kolektif adalah sebuah hidden gem bagi mereka yang mencari judul-judul buku yang sulit ditemukan di tempat lain. Meskipun berlokasi di dalam gang kecil yang estetik, suasana di dalam toko sangat tenang dan sejuk.</p>
+<h1>Kontak Admin Toko</h1>
+<p>Anda dapat menghubungi kami di Whatsapp 087741778191</p>
+</body>
+</html>
+
